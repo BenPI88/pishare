@@ -1,6 +1,8 @@
 import os
 import time
 import random
+i = 0
 while True:
   time.sleep(60)
-  os.system("cd ~/Desktop/ && echo YOU ARE DEAD > DEATH-" + str(random.randint(1, 999) + ".txt"))
+  i = i + 1
+  os.system("cd ~/Desktop/ && echo YOU ARE DEAD > DEATH-" + str(i) + ".txt"))
