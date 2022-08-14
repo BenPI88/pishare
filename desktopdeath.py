@@ -5,4 +5,4 @@ i = 0
 while True:
   time.sleep(60)
   i = i + 1
-  os.system("cd ~/Desktop/ && echo YOU ARE DEAD > DEATH-" + str(i) + ".txt"))
+  os.system("cd ~/Desktop/ && echo YOU ARE DEAD > DEATH-" + str(i) + ".txt")
