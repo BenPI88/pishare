@@ -1,3 +1,3 @@
 import os
 while True:
-  os.system("aplay ashes.wav")
+  os.system("aplay Ashes.wav")
